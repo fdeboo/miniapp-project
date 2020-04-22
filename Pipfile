@@ -7,9 +7,9 @@ verify_ssl = true
 
 [packages]
 flask = "*"
-flask-pymongo = "*"
 dnspython = "*"
-bcrypt = "*"
+flask-pymongo = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.7"
